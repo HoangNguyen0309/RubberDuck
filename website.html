@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<title>RubberDuck</title>
+	<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
     <link rel="stylesheet" href="rubber.css" id="change">
 </head>
 <body style="background-color: #073763ff;">
     <script src="duck.js"></script>
-    <img src="rubber_duck_PNG4.png" class="center" class="space">
+	<model-viewer src="duck.glb" camera-controls rotation-per-second="360deg" interaction-prompt=none camera-orbit="45deg 80deg" shadow-intensity="0" class="center" class="space"></model-viewer>
     <p>
-        <h1 class="name" class="space" >RubberDuck</h1>
+        <h1 class="name" class="space">RubberDuck</h1>
         <input  type="text" id="pEnter" class='input' placeholder="What's your problem?"> 
     </p>
 </body>

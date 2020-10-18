@@ -11,15 +11,16 @@
     margin-right: auto;
     width: 50%;
     margin-top: 200px;
-    width: 200px;
-    height: 200px;
+    width: 240px;
+    height: 240px;
 }
 .name {
     font-family: Montserrat;
     font-size: 50px;
     text-align: center;
     color: aliceblue;
-    margin-bottom: 0px;
+    margin-top: 0px;
+	margin-bottom: 18px;
 }
 .input {
     font-family: Montserrat;
@@ -49,4 +50,8 @@
 @font-face {
     font-family: Montserrat;
     src: url(Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(Montserrat-Bold.ttf);
 }
