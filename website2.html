@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    input {
+        margin-top: 2px;
+
+        font-family: Montserrat;
+        border: none;
+        border-radius: 15px;
+    display: block;
+    width: 76%;
+    font-size: 16px;
+    padding: 12px 20px;
+    
+    background-image: url('searchIcon.png');
+    background-position: 99%;
+    background-size: 12px 12px;
+    background-repeat: no-repeat;
+
+    display:inline-block;
+}
+
+input:focus {
+    background-color: lightblue;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+}
+model-viewer {
+    margin-top: 5px;
+    float: left;
+    width: 40px;
+    height: 40px;
+}
+h1 {
+    margin-top: 5px;
+    font-family: Montserrat;
+    font-size: 40px;
+    color: aliceblue;
+
+    display:inline-block;margin-right:10px;
+}
+
+@font-face {
+    font-family: Mont;
+    src: url(Montserrat-Regular.ttf);
+}
+    </style>
+</head>
+<body style="background-color:  #073763ff;">
+    <model-viewer src="duck.glb" camera-controls auto-rotate auto-rotate-delay=10000 rotation-per-second="45deg" interaction-prompt=none camera-orbit="45deg 80deg" shadow-intensity="0" onclick="myFunction()" class="center" class="space"></model-viewer>
+    <h1 class="name" class="space" style="font-family: Mont;">RubberDuck</h1>
+	<input  type="text" id="pEnter" class='input' style="font-family: Mont;" placeholder="What's your problem?">
+</body>
