@@ -16,7 +16,7 @@ def runDictionarySearch(tags):
             break
 
         word = line[0: line.index("-") - 1]
-        definition = line[line.index("-") + 1:]
+        definition = line[line.index("-") + 2:]
 
         if numTrack < 125:
             source = "https://stackify.com/java-glossary"
@@ -109,8 +109,8 @@ def runDictionarySearch(tags):
     defs = list(reversed(defs))
     # end sort by score
 
-    # return defs
-    return defs
+    # return top result in String format
+    return (defs[0].word + "\n" + defs[0].definition + defs[0].source)
 # end method
 
 class Entries:
