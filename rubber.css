@@ -1,11 +1,18 @@
 #bodycolor {
     background-color: #073763ff;
 }
+#press {
+    border-radius: 5px;
+    color: blue;
+    font-family: Montserrat;
+
+}
 .space {
     margin-bottom: 0px;
     margin-top: 0px;
 }
 .center {
+    float: initial;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -21,7 +28,7 @@
     color: white;
     margin-top: 0px;
 	margin-bottom: 24px;
-	font-weight: bold;
+    font-weight: bold;
 }
 .input {
     font-family: Montserrat;
@@ -48,10 +55,7 @@
     border-radius: 15px;
 }
 
-@font-face {
-    font-family: Montserrat;
-    src: url(Montserrat-Regular.ttf);
-}
+
 @font-face {
     font-family: Montserrat;
     src: url(Montserrat-Bold.ttf);
