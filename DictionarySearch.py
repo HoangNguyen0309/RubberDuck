@@ -74,13 +74,13 @@ def runDictionarySearch(tags):
         for k in range(len(tagList)):
             if tagList[k] != " ":
                 if tagList[k] in defs[i].word.lower():
-                    scores[i] += (len(tagList[k]) / len(defs[i].word))
+                    scores[i] += (len(tagList[k]) / len(defs[i].word)) * 1.5
                 else:
                     numCharsInWord = 0
                     for q in range(len(tagList[k])):
                         if tagList[k][q] in defs[i].word.lower():
                             numCharsInWord += 1
-                    scores[i] += (numCharsInWord / len(defs[i].word)) * 0.25
+                    scores[i] += (numCharsInWord / len(defs[i].word)) * 0.15
     # end increase from word match
 
     # increase the score based on the number of keywords in the definition
@@ -89,7 +89,7 @@ def runDictionarySearch(tags):
         for k in range(len(tagList)):
             if tagList[k] != " ":
                 if tagList[k] in defs[i].definition.lower():
-                    defScore += 5
+                    defScore += 4
                 else:
                     numCharsInWord = 0
                     for q in range(len(tagList[k])):
