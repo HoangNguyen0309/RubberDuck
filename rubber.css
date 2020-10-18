@@ -21,6 +21,7 @@
     color: aliceblue;
     margin-top: 0px;
 	margin-bottom: 18px;
+	font-weight: bold;
 }
 .input {
     font-family: Montserrat;
@@ -54,4 +55,5 @@
 @font-face {
     font-family: Montserrat;
     src: url(Montserrat-Bold.ttf);
+	font-weight: bold;
 }
