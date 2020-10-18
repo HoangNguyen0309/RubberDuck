@@ -1,50 +1,50 @@
 abstract - a keyword used in a class or method definition, which specifies that the method/class is not going to be instantiated, but should be inherited by other methods or classes
 API - is the way to expose a set of predefined classes and interfaces to external clients to interact with them, without sharing the implementation details
-argument - an input specified in a method call; it can be a literal value, a variable, or an expression:
-array - a fixed-size collection of data of the same type, which can hold zero or more items:
-autoboxing - automatic conversion between the primitive types and their corresponding object wrapper classes:
-block - code between two matching open and close braces, which is the single logical unit of work inside the application:
-boolean - a primitive type, holding only two values:  true or false:
-break - a statement used to exit a loop/switch statement/labeled block; the application continues execution with the statement immediately following the containing block:
-byte - a primitive type of the size of eight bits:
+argument - an input specified in a method call; it can be a literal value, a variable, or an expression
+array - a fixed-size collection of data of the same type, which can hold zero or more items
+autoboxing - automatic conversion between the primitive types and their corresponding object wrapper classes
+block - code between two matching open and close braces, which is the single logical unit of work inside the application
+boolean - a primitive type, holding only two values: true or false
+break - a statement used to exit a loop/switch statement/labeled block; the application continues execution with the statement immediately following the containing block
+byte - a primitive type of the size of eight bits
 bytecode - the instruction set for Java Virtual Machine, created from source files into bytecode by the compiler
-case - a keyword that defines a particular group of statements executed in a switch statement:
-casting - conversion from one data type to another:
-catch - the block of code inside try/catch statement, responsible for handling exceptions:
-char - a keyword used to declare a variable of single type character:
+case - a keyword that defines a particular group of statements executed in a switch statement
+casting - conversion from one data type to another
+catch - the block of code inside try/catch statement, responsible for handling exceptions
+char - a keyword used to declare a variable of single type character
 checked exception - an Exception that is caught at the compilation time, usually in the block or thrown in the method header
-class - the core type in Java that defines the implementation of a particular kind of object; it defines instance and class variables and methods, as well as specifies the interfaces it implements and the immediate superclass of the class, by default Object:
+class - the core type in Java that defines the implementation of a particular kind of object; it defines instance and class variables and methods, as well as specifies the interfaces it implements and the immediate superclass of the class, by default Object
 class method - a synonym of static class
 class variable - a synonym of a static field or a static variable
 classpath - an environment variable or a command line argument indicating the path searched by the Java compiler and the runtime for class definitions
-comment - a piece of explanatory text ignored by the compiler:
+comment - a piece of explanatory text ignored by the compiler
 compiler - a program used to translate source code into the code executed by a computer
 concurrency - it is the ability of a program to run several tasks in parallel, a primary feature of multithreading
-condition - a boolean expression controlling a conditional statement or loop:
-constant - a final variable in Java, which means that the reference of it cannot be changed once initialized:
-constructor - a method inside the class, which creates and initializes objects in it: needs to be public and names the same as the class:
-continue - a keyword used to resume application execution at the end of the current loop:
+condition - a boolean expression controlling a conditional statement or loop
+constant - a final variable in Java, which means that the reference of it cannot be changed once initialized
+constructor - a method inside the class, which creates and initializes objects in it: needs to be public and names the same as the class
+continue - a keyword used to resume application execution at the end of the current loop
 curly brackets - please refer to block
 declaration - officially, this is defined as a statement that establishes an identifier and associates attributes with it, without necessarily reserving its storage or providing the implementation
-default - the optional destination used in a switch statement, when neither case statement matches the requested behavior:
+default - the optional destination used in a switch statement, when neither case statement matches the requested behavior
 definition - a declaration that reserves storage (for data) or provides an implementation (for methods)
 deprecation - a class/method/interface that has been made obsolete by later versions of the library or of the language itself; it should not be used as there is no guarantee that it will exist in future versions
 direct recursion - a recursion that starts in the stack of the calling method itself
-do - a keyword used to declare a while loop ensuring execution of the first iteration of the loop before the check of the boolean condition:
+do - a keyword used to declare a while loop ensuring execution of the first iteration of the loop before the check of the boolean condition
 DOM - Document Object Model, defined by the W3C, that allows applications to dynamically access and update the content, structure, and style of documents
-downcast - a process of changing the data type from Object to the particular type, i.e., Integer:
-double - a Java primitive type of the type double:
-else - a keyword used in if/else condition statements, executed when the test condition is false:
+downcast - a process of changing the data type from Object to the particular type, i.e., Integer
+double - a Java primitive type of the type double
+else - a keyword used in if/else condition statements, executed when the test condition is false
 encapsulation - the process of protecting the state of objects by defining its attributes as private and channeling access to them through accessor and mutator methods
-enum - a Java keyword used to declare the enumerated type (whose values are a fixed set of constants):
-exception - an exceptional circumstance preventing the program to continue working regularly (usually an error or bug);
+enum - a Java keyword used to declare the enumerated type (whose values are a fixed set of constants)
+exception - an exceptional circumstance preventing the program to continue working regularly (usually an error or bug)
 expression - a combination of operands and operators which causes particular behavior and produces results
-extends - a keyword used to define the inheritance of classes or interfaces:
+extends - a keyword used to define the inheritance of classes or interfaces
 field - a variable defined outside of all defined methods, but inside of the class; in other words, a member of a class
-final - a Java keyword indicating that an entity is immutable, thus, you can’t change its reference during the program execution:
-finally - a block in a try/catch statement executed even Java exception or runtime error occurred:
-float - a Java keyword used to define a floating point number variable:
-for - a Java control structure used for loop execution:
+final - a Java keyword indicating that an entity is immutable, thus, you can’t change its reference during the program execution
+finally - a block in a try/catch statement executed even Java exception or runtime error occurred
+float - a Java keyword used to define a floating point number variable
+for - a Java control structure used for loop execution
 garbage collection - the process by which the JVM automatically frees up unused memory; to go further into the GC process and potential problems in that process
 global variable - a variable that is visible to all methods in the class
 GUI - graphical user interface
@@ -53,16 +53,16 @@ hash function - a method used to produce hash code from any data of arbitrary si
 hexadecimal - a number represented by the base of 16
 HTML - HyperText Markup Language; a web content presentation language
 HTTP(S) - HyperText Transfer Protocol (Secure); a protocol that defines all rules how the browser should communicate with a server
-identifier - a name of a class, variable, method or interface defined in the code by the software developer:
-if - a Java control structure used to choose if execution of further actions should continue or not:
+identifier - a name of a class, variable, method or interface defined in the code by the software developer
+if - a Java control structure used to choose if execution of further actions should continue or not
 immutable object - an object whose state or value is not changeable after creation
-implements - a Java keyword used to indicate which interfaces are implemented by the current class:
-import - a statement used to enable the use of other classes or interfaces from different Java packages:
+implements - a Java keyword used to indicate which interfaces are implemented by the current class
+import - a statement used to enable the use of other classes or interfaces from different Java packages
 indirect recursion - a recursion that happens when method A calls method B while a call from the method B to the method A is still in progress
 infinite recursion - a recursion that can technically continue indefinitely; it very often indicates a logic error and can lead to StackOverflow errors
 inheritance - a feature of object oriented programming, where classes contain all variables and methods defined in their supertypes
-int - a Java primitive of the type integer:
-interface - a Java keyword used to define the collection of methods and constant values that can be furthermore implemented by other classes:
+int - a Java primitive of the type integer
+interface - a Java keyword used to define the collection of methods and constant values that can be furthermore implemented by other classes
 iteration - a single execution of a loop
 JAR - Java Archive is the default Java packaging mechanism to aggregate multiple files into one (similar to .zip)
 Java Core - provides the main features of Java, also named Java Standard Edition
@@ -71,8 +71,8 @@ JDK - Java Development Kit, the environment and core libraries used to write Jav
 JVM - Java Virtual Machine, the abstract machine where the compiled Java bytecode is executed
 livelock - a situation when two separate threads are waiting for each other to check the condition of particular part of the program
 local variable - a variable defined in the method body, visible only inside it
-long - a Java primitive of the type long:
-main method - a starting point for Java applications:
+long - a Java primitive of the type long
+main method - a starting point for Java applications
 memory leak - a situation during the program execution where memory that is no longer being used cannot be removed by the garbage collector as there is still a reference to it; it eventually leads to OutOfMemoryException
 method - a particular function implemented in a Java class:
 module - a group of program components; in Java, the term that’s used for it is package
@@ -87,8 +87,8 @@ object - an instance of a particular class; also the core concept of the OOP
 OOP - Object Oriented Programming: a primary paradigm in modern software development, focused on objects as primitives, not the specific actions; each object is created/instantiated from a class
 operator - a symbol used for arithmetic or boolean expressions
 operator precedence - the order of processing conditions or equations with the multiple operators, similar to the mathematical concept of order of operations
-overloading - using the same method name for various implementation, differentiated by parameters:
-overriding - providing a different implementation of the original method in its subclass:
+overloading - using the same method name for various implementation, differentiated by parameters
+overriding - providing a different implementation of the original method in its subclass
 package - a name for a grouping of classes and interfaces in a namespace
 primitive type - one of the following non class variable type: boolean, byte, char, double, float, int, long or short
 private - a Java modifier, used to specify the visibility of a method or a variable, so they can be accessed only within its class
@@ -99,22 +99,22 @@ reflection - the ability of the code to inspect and manipulate other code in the
 return - a Java keyword used to finish the execution of the method and return data back to the caller
 scope - it determines the visibility of elements in the program, for example, local or global variables
 serialization - the process of encoding and decoding the objects to the stream of bytes, and vice versa
-short - a keyword used to specify the variable of the type short:
-static - class member variable stored and accessed as a single instance for all objects of that class:
+short - a keyword used to specify the variable of the type short
+static - class member variable stored and accessed as a single instance for all objects of that class
 stream - a byte stream of data sent from sender to receiver
-String - an instance of an immutable String class, containing zero or more Unicode characters:
+String - an instance of an immutable String class, containing zero or more Unicode characters
 super - a keyword allowing the access to members of a class inherited by the class in which it appears
-switch - a control structure with multiple cases:
+switch - a control structure with multiple cases
 synchronized - a control statement that guarantees single access semantics in a multithreaded environment
 this - a statement that references the instance of the class where it appears
 thread - a basic, single lightweight execution process supported natively by the JVM as well as by the OS
-throw - a statement used to throw an Exception:
-throws - a keyword in a method header indicating that one or more exceptions will be propagated from this method:
-try - a block of code that allows exceptions to be caught using a catch block:
+throw - a statement used to throw an Exception
+throws - a keyword in a method header indicating that one or more exceptions will be propagated from this method
+try - a block of code that allows exceptions to be caught using a catch block
 unchecked exception - an error without handler defined in the program implementation, cannot be dealt with at compilation time
 Unicode - a 16 bit character set defined by ISO 10646, designed to make exchange and display of information easier across various languages
-URI, URL - Uniform Resource Identifier/Locator.
-upcast - a process of casting to super type: for example from String to Object:
+URI, URL - Uniform Resource Identifier/Locator
+upcast - a process of casting to super type: for example from String to Object
 variable - an item of data associated with a specific type
 variable declaration - the place in the application, where the specific variable is assigned to one of the existing Java types
 virtual machine - see JVM
@@ -122,110 +122,110 @@ void - a keyword used to indicate that method does not return any value
 volatile - a modifier specifying how the variable behaves in a multithreaded environment; the variable will never be cached in a thread local as it’s expected to be modified by different threads
 while - a Java control structure used for looping
 wrapper - an object that encapsulates primitive types into one of the classes from the java.lang package: Boolean, Byte, Character, Double, Float, Integer, Long or Short to provide additional methods
-ArithmeticException - It is thrown when an exceptional condition has occurred in an arithmetic operation.
-ArrayIndexOutOfBoundsException - It is thrown to indicate that an array has been accessed with an illegal index. The index is either negative or greater than or equal to the size of the array.
+ArithmeticException - It is thrown when an exceptional condition has occurred in an arithmetic operation
+ArrayIndexOutOfBoundsException - It is thrown to indicate that an array has been accessed with an illegal index. The index is either negative or greater than or equal to the size of the array
 ClassNotFoundException - This Exception is raised when we try to access a class whose definition is not found
-FileNotFoundException - This Exception is raised when a file is not accessible or does not open.
+FileNotFoundException - This Exception is raised when a file is not accessible or does not open
 IOException - It is thrown when an input output operation failed or interrupted
-InterruptedException - It is thrown when a thread is waiting , sleeping , or doing some processing , and it is interrupted.
+InterruptedException - It is thrown when a thread is waiting , sleeping , or doing some processing , and it is interrupted
 NoSuchFieldException - It is thrown when a class does not contain the field (or variable) specified
-NoSuchMethodException - It is thrown when accessing a method which is not found.
+NoSuchMethodException - It is thrown when accessing a method which is not found
 NullPointerException - This exception is raised when referring to the members of a null object. Null represents nothing
-NumberFormatException - This exception is raised when a method could not convert a string into a numeric format.
-RuntimeException - This represents any exception which occurs during runtime.
+NumberFormatException - This exception is raised when a method could not convert a string into a numeric format
+RuntimeException - This represents any exception which occurs during runtime
 StringIndexOutOfBoundsException - It is thrown by String class methods to indicate that an index is either negative than the size of the string
-Snakecase -  Words are delimited by an underscore.
-Pascalcase -  Words are delimited by capital letters.
-Camelcase -  Words are delimited by capital letters, except the initial word.
-Hungarian Notation - This notation describes the variable type or purpose at the start of the variable name, followed by a descriptor that indicates the variable’s function. The Camelcase notation is used to delimit words.
-ACTIVE RECORD - Active Record is the “M” in MVC (Model View Controller). It is the “model” or the layer of the system responsible for representing business data and logic that requires constant storage to a database. Active Record facilitates the creation and use of business data. Expect to learn Active Record at a coding bootcamp that teaches Ruby on Rails.
-AGILE SOFTWARE DEVELOPMENT - Agile Software Development is a methodology that calls for keeping code simple, testing often, and delivering small, functional bits of an application when they are ready (called “Sprints”). Expect to focus on building parts of an application rather than delivering one huge application at the end of the project. You may or may not learn Agile Development during a coding bootcamp, but a hiring manager will probably talk about it in interviews if their dev team uses it.
-AJAX - AJAX stands for “Asynchronous JavaScript and XML.” AJAX is not a programming language but a set of web development techniques utilizing many web technologies on the client side in order to create asynchronous web applications. In a nutshell, Ajax allows for website pages to dynamically change content without needing to reload the entire page.
-ALGORITHM - An algorithm is a set of rules or processes to follow while creating a computer program. Algorithms are the basis for the theory behind most computer programming. For example, how does Google determine which website should appear on their front page of search results? A Search Algorithm! When skeptics talk about coding bootcamps, they usually point out that bootcamp alumni aren’t algorithm aces. Will you learn about algorithms at a coding bootcamp? Sure. Will you know as much as a Computer Science major? Probably not.
-ANGULAR.JS - Angular.js or Angular is an open source JavaScript framework maintained by Google. It’s the A in MEAN Stack development. Expect to learn Angular.JS at a Full stack JavaScript Bootcamp.
-APACHE HTTP SERVER - Apache HTTP Server or Apache is the world’s most used web development software that played a primary role in the initial growth of the World Wide Web. It’s also the “A” in LAMP Stack.
-API - An API is an application programming interface with a set of routines, protocols, and tools for building software applications. API’s express software components in terms of their operations, inputs, outputs, and underlying types. For example, you may use a Google Maps API in your bootcamp final project in order to use existing geolocation infrastructure to create specialized maps.
-APPRENTICESHIP - Apprenticeship has been around since the Middle Ages (literally) but today, they go hand in hand with coding bootcamps. For bootcamp graduates who take an apprenticeship, they can expect paid, on the job training for a fixed time period, resulting in a full time job at the company. There are even some bootcamps, such as Anyone Can Learn to Code, who require students to obtain an apprenticeship as a part of their bootcamp curriculum.
-ASYNCHRONOUS LEARNING - Asynchronous learning refers to teacher student interactions that are happening in different locations or at different times, rather than interactive same time learning environments. This type of learning is commonly seen in digital and online learning spaces like MOOCs, Treehouse or Udacity. Many online bootcamps also offer synchronous learning options like Thinkful or Bloc.
+Snakecase - Words are delimited by an underscore
+Pascalcase - Words are delimited by capital letters
+Camelcase - Words are delimited by capital letters, except the initial word
+Hungarian Notation - This notation describes the variable type or purpose at the start of the variable name, followed by a descriptor that indicates the variable’s function. The Camelcase notation is used to delimit words
+ACTIVE RECORD - Active Record is the “M” in MVC (Model View Controller). It is the “model” or the layer of the system responsible for representing business data and logic that requires constant storage to a database. Active Record facilitates the creation and use of business data. Expect to learn Active Record at a coding bootcamp that teaches Ruby on Rails
+AGILE SOFTWARE DEVELOPMENT - Agile Software Development is a methodology that calls for keeping code simple, testing often, and delivering small, functional bits of an application when they are ready (called “Sprints”). Expect to focus on building parts of an application rather than delivering one huge application at the end of the project. You may or may not learn Agile Development during a coding bootcamp, but a hiring manager will probably talk about it in interviews if their dev team uses it
+AJAX - AJAX stands for “Asynchronous JavaScript and XML.” AJAX is not a programming language but a set of web development techniques utilizing many web technologies on the client side in order to create asynchronous web applications. In a nutshell, Ajax allows for website pages to dynamically change content without needing to reload the entire page
+ALGORITHM - An algorithm is a set of rules or processes to follow while creating a computer program. Algorithms are the basis for the theory behind most computer programming. For example, how does Google determine which website should appear on their front page of search results? A Search Algorithm! When skeptics talk about coding bootcamps, they usually point out that bootcamp alumni aren’t algorithm aces. Will you learn about algorithms at a coding bootcamp? Sure. Will you know as much as a Computer Science major? Probably not
+ANGULAR.JS - Angular.js or Angular is an open source JavaScript framework maintained by Google. It’s the A in MEAN Stack development. Expect to learn Angular.JS at a Full stack JavaScript Bootcamp
+APACHE HTTP SERVER - Apache HTTP Server or Apache is the world’s most used web development software that played a primary role in the initial growth of the World Wide Web. It’s also the “A” in LAMP Stack
+API - An API is an application programming interface with a set of routines, protocols, and tools for building software applications. API’s express software components in terms of their operations, inputs, outputs, and underlying types. For example, you may use a Google Maps API in your bootcamp final project in order to use existing geolocation infrastructure to create specialized maps
+APPRENTICESHIP - Apprenticeship has been around since the Middle Ages (literally) but today, they go hand in hand with coding bootcamps. For bootcamp graduates who take an apprenticeship, they can expect paid, on the job training for a fixed time period, resulting in a full time job at the company. There are even some bootcamps, such as Anyone Can Learn to Code, who require students to obtain an apprenticeship as a part of their bootcamp curriculum
+ASYNCHRONOUS LEARNING - Asynchronous learning refers to teacher student interactions that are happening in different locations or at different times, rather than interactive same time learning environments. This type of learning is commonly seen in digital and online learning spaces like MOOCs, Treehouse or Udacity. Many online bootcamps also offer synchronous learning options like Thinkful or Bloc
 ASYNCHRONOUS PROGRAMMING LANGUAGES - Asynchronous languages like JavaScript can handle things out of order and a lot of the Internet is happening that way. It’s like going to Walmart on Black Friday and instead of having either one really long line that’s slow, or many, many lines that have to be staffed, you can have one line that can check everyone out at once. This is excellent for websites (as a web server)
-BACKBONE.JS - Backbone.js is a JavaScript framework that gives structure to web apps by providing models, custom events, and collections of rich API functions. Backbone.js has a RESTful JSON interface and is based on the model view presenter (MVP) application design paradigm. Basically, Backbone gives you the freedom to have the full design experience for your web app.
-BACK END - Backend development refers to the server side of development where the main focus is on how the site works. This usually consists of three parts: a server, an application, and a database. Users can’t see the backend work, but code written by back end developers is what communicates the database information to the browser.
+BACKBONE.JS - Backbone.js is a JavaScript framework that gives structure to web apps by providing models, custom events, and collections of rich API functions. Backbone.js has a RESTful JSON interface and is based on the model view presenter (MVP) application design paradigm. Basically, Backbone gives you the freedom to have the full design experience for your web app
+BACK END - Backend development refers to the server side of development where the main focus is on how the site works. This usually consists of three parts: a server, an application, and a database. Users can’t see the backend work, but code written by back end developers is what communicates the database information to the browser
 BOOTSTRAP (aka TWITTER BOOTSTRAP) - Bootstrap is an intuitive and powerful front end framework that is an open source collection of tools for creating websites and web applications. It was developed by Mark Otto and Jacob Thornton of Twitter to encourage consistency across internal tools, and was originally named “Twitter Blueprint.”
 BUILD - Build, also known as software build or code build, refers to the process by which source code is converted into a stand alone form that can be run on a computer or the form itself. Builds are created once a certain point in development has been reached or the code is deemed ready for implementation for testing or release.
-CODE REVIEW - A code review is the systematic examination of computer source code that is intended to find and fix mistakes originally overlooked. Students will learn and participate in code reviews at bootcamp to prepare for the types of code examinations that will commonly happen in job interviews or on the job.
-CODING - Coding is the act of computer programming or software development in a given coding or programming language.
-CODING BOOTCAMP - Coding bootcamps are intensive, immersive instructor led learning programs that teach beginners digital skills like Full Stack Web Development, Data Science, Digital Marketing, and UX/UI Design. Bootcamps vary in length from 8 to 28 weeks, with the average bootcamp being about 10 weeks long.
-CODING CHALLENGE - Coding challenges are tests or projects given to future bootcampers by selective schools during the application process. Depending on the selectivity of the school, coding challenges may vary from solving a logic puzzle to build a full web application in a week. Expect to complete the coding challenge, then likely discuss how you approached it during your one on one interview.
-COMMAND LINE - A command line interface or command language interpreter (CLI) is where a user can enter commands in the form of successive text in order to complete specific tasks.
-COMPILER - A compiler is a set of computer programs that transforms one type of source code written in one language into a difference source code. For example, the compiler called gcc compiles a C program into an executable like Print (“Hello World”). Simply put, a complier is a source code translator.
-CSS - If HTML is the structure of a house, then CSS is the paint and wallpaper. Cascading Style Sheets is a standard markup language that describes the formatting of markup language pages. Before CSS, websites were kept in HTML markup, making the process more complex. CSS is a frontend language that enables developers to separate content and visual elements for better page control and flexibility. CSS defines formatting for HTML, XHTML, XML, SVG, and XUL.
-CYBERSECURITY - Cybersecurity, aka information technology security, focuses on the protection of computer and network data from unauthorized access (or hacking). This is a growing field as the need to keep digital information safe is a constant concern. There are even a few Cybersecurity bootcamps like Evolve Security Academy and SecureSet Academy.
-DATABASE (DBMS) - A computer database management system refers to the storage and organization of data. Databases are used for easy retrieval of information.
-DATA SCIENCE - According to NYC Data Science Academy, Data science is a multidisciplinary field that combines computer science and statistics. The objective of data science is to pull insightful and useful knowledge out of datasets which, at times, can be too large for traditional statistics to analyze. This can include anything from analyzing complex genomic structures, to interpreting handwriting, to optimizing a marketing strategy. Most data science bootcamps require an aptitude for math and statistics, and in some cases knowledge of a programming language, such as R or Python.
-DATA STRUCTURES - A data structure is a specialized way of organizing and storing information on a computer so that it can be used efficiently. Data structures can implement particular abstract data types (ADT), as a means of specifying the contract of operations and their complexity.
-DJANGO - A free, open source, web application framework written in Python which follows the model view controller (MVC) framework. Expect to learn Django at a coding bootcamp that teaches Python. It’s great for rapid development, along with clean and pragmatic design, and often used in Data Science roles.
-DEPLOYMENT - Software is deployed when all of the activities that make a software system available for use are complete, tested, and ready for users. At a coding bootcamp, you should expect to be deploying to a platform like Heroku. Once code is deployed, it’s available to users.
-EXPRESS.JS - Express.js is a Node.js web application backend server framework for building single page, multi page, and hybrid web apps. It’s the most common framework for Node.js as it simplifies the process and provides additional plug ins. Want to build a website? You’ll be using Express.js. It’s the E in MEAN Stack, and you should expect to learn it at any Full stack JavaScript Coding Bootcamp.
-FLIPPED CLASSROOM - A type of blended learning teaching method that reverses the traditional educational arrangement by delivering instructional content, often online, outside of the classroom. Classroom time is then spent on projects and exercises. This is pretty typical in the coding bootcamp world, especially an online school.
-FRAMEWORK - A framework is a reusable, hierarchical directory environment that indicates what kinds of programs can or should be built. Frameworks are similar to static and dynamic libraries called by applications to perform specific tasks. You’ll learn various JavaScript frameworks at a front end or full stack coding bootcamp including Angular.Js, and React.
-FRONT END - Front end development refers to “client side” development, where the focus is on what users see. Front end developers will be engaged in analyzing code, design, and debugging applications along with ensuring a seamless user experience.
-FULL STACK DEVELOPER - Full Stack Developers are software engineers versed in both frontend and back end development. Software development requires several types of engineers with various knowledge bases including, but not limited to, front end developers, web server administrators, back end engineers, and database engineers. A full stack developer can give insight into all layers of a project.
-GIT - Git is an open source version control system used for it’s speed, data integrity, and support for distributed, non linear workflows. Think of it as a series of snapshots of your code. Every Git directory on every computer has a complete repository with history and full version tracking independent of network access or a central server.
-GITHUB - Github is a micro web platform written in Python where developers store Git repositories in order to collaborate with other developers.
-HTML - HyperText Markup Language (HTML) is the standard markup language used to create web pages. If you’re a beginner, this is usually the first programming language you will learn at a bootcamp. In the “house” analogy used in our definition for CSS, HTML is the structure of a house, while CSS is the paint and wallpaper.
-HTTP REQUEST - HyperText Transfer Protocol (HTTP) is an application protocol for distributed, collaborative, hypermedia information systems. HTTP is the foundation of data communication for the World Wide Web. If your browser fetches any file from a web server, it’s using an HTTP request.
-IDE - An Integrated Development Environment (IDE) is a comprehensive software suite that consolidates basic tools needed for developers. A typical IDE includes a source code editor, a compiler, and a debugger.
-INCOME SHARE AGREEMENT - An income sharing agreement means students agree to pay a percentage of their salary to the school for a set period of time. Depending on the school, the percentage can range from 8% to 25%, and you may be sharing your income for 1 year to 4 years.
-INHERITANCE - Inheritance in object oriented programming is the process of reusing code to allow independent extensions of the original software. New code classes receive (or “inherit”) the properties and methods of the existing code.
-iOS SWIFT - iOS Swift is a multi paradigm, compiled programming language created by Apple Inc for iOS, macOS, watchOS, tvOS, and Linux. Swift adopts the best of C and Objective C, without the constraints of C compatibility. One day, mobile development bootcamps will be taught exclusively in Swift, but for now, expect to learn at least a bit of Swift with Objective C if you’re enrolled in a Mobile Development Bootcamp.
-JAVA - Java is a backend, object oriented scripting language that allows you to create dynamic web pages enabling you to process and maintain data within the browser. Notable sites written in Java include Linkedin.com, AliExpress.com, and Ebay.com. And if you’re an Android mobile lover, Android mobile applications are written in Java!
-JAVASCRIPT - JavaScript is a high level, dynamic front end programming language. JavaScript is one of the more popular languages taught at a full stack coding bootcamp. 33% of coding bootcamps report JavaScript as the primary programming framework taught.
-JAVASCRIPT FRAMEWORK - A JavaScript Framework is a web application framework written in JavaScript. It gives structure to how a developer should write their code when using JavaScript.
-JQUERY - jQuery is a cross platform JavaScript library designed to simplify the client side scripting of HTML and is the most popular JavaScript library in use today. Do you dream of being a Front End Developer? You’ll need to master jQuery, as it’s an easy way to add animation and interactivity to a website.
-JSON (JAVASCRIPT OBJECT NOTATION) - JSON is a lightweight, readable format that transmits structured data between a server and web application. JSON can be used as an alternative to XML.
-JUNIOR DEVELOPER - A junior web developer is an entry level software programmer (aka Junior Programmer or Junior Software Engineer). Most coding bootcamps’ goals are to prepare their students to become junior developers. Upon graduation, you should have the skills to be a junior developer, but ready to advance your career in a role that allows for more learning and growth.
-LAMP STACK - LAMP is an archetypal model of web service solution stacks: Linux operating system, the Apache HTTP Server, the MySQL relational database management system (RDBMS) and the PHP programming language. LAMP stack is a popular open source web platform commonly used to run dynamic web sites and servers. You’ll usually see startups and large web companies using LAMP Stack like Tesla, SeatGeek, Lyft, and Birchbox.
-LINUX - Linux is a unix like operating system assembled under the model of free and open source software development and distribution. It’s the L in LAMP stack!
-LOCAL ENVIRONMENT - The local environment or development environment is where changes to software are developed before they go live. Once code has been tested, it is pushed out of the local environment and deployed to production.
-MEAN STACK - MEAN Stack is a free and open source JavaScript software stack for building dynamic websites and web applications. MEAN is comprised of MongoDB, Express.js and Angular.js, which are all run on Node.js. All MEAN Stack devs are full stack devs. However, not all full stack devs are considered MEAN stack devs.
-MONGODB - MongoDB is a cross platform document oriented database designed for scalability and agility. Classified as a NoSQL database, MongoDB uses JSON like documents with dynamic schemas instead of traditional table based relational database structures. MongoDB is the M in MEAN stack.
-MVC - Model view controller (MVC) is a software design pattern for implementing user interfaces. It divides a given software application into three interconnected parts and defines not only the roles objects play in the application, it defines the way objects communicate with each other. Applications with a MVC design are usually more reusable, easily extensible, and have interfaces that are better defined.
-MYSQL - MySQL is an open source relational database management system (RDBMS) that is very popular among small and big businesses. MySQL can support very large databases using the standard form SQL data language, while working on many operating systems with languages like PHP, Perl, C, C++, Java and more.
-NODE.JS - Node.js (or Node) is an open source, cross platform runtime environment written in JavaScript for developing fast and scalable server side web applications. Node.js runs on OS X, Microsoft Windows, Linux and more. Node is the N in MEAN stack.
-OBJECT ORIENTED PROGRAMING (OOP) - Object Oriented Programming (OOP) is a programming model based on the concepts of “objects,” which are data structures that contain data, instead of actions. Devs must define the datatype of a data structure and also the types of functions they want that data to perform. The first step in OPP, identifying all objects and preferred actions, is also known as data modeling.
-OBJECT RELATED DATABASE MANAGEMENT SYSTEM (ORDBMS) - An object relational database management system (ORDBMS) is a database management system that is similar to a relational database, except that it has an object oriented database model. This system supports objects, classes, and inheritance in database schemas and query language; and is the middle ground between relational and objective databases.
-OPEN SOURCE SOFTWARE DEVELOPMENT - Open source software is software that is available for public use. During open source software development, developers can work on products whose source code is under an open source license encouraging developers from around the world to study, change, and improve the design of the software. Popular open source software includes WordPress and Mozilla Firefox.
-OS (OPERATING SYSTEM) - A computer’s OS is the most import piece of software, as it controls all functionality of a computer’s memory and processes.
-PAIR PROGRAMMING - Pair programming is an agile development technique where two programmers share one computer and work together to code. The “driver” writes code, while the observer reviews each line of code for accuracy. The two programmers will switch roles often. Expect to do a good amount of pair programming at a bootcamp!
-PHP - Hypertext Preprocessor (PHP) is a widely used server side scripting language designed to create dynamic and interactive HTML web pages. PHP adds functionality that HTML alone can not achieve. PHP is huge and runs on platforms like Facebook and Wikipedia!
-POSTGRESQL - PostgresSQL is an open source object relational database management system (ORDBMS) with an emphasis on data integrity and on standards compliance. Often referred to as Postgres and has high scalability.
-PREWORK - Prework is coding coursework assigned before the actual coding bootcamp starts. Prework is a way to accustom students to what they’ll learn at the bootcamp , and gives students an opportunity to be introduced (or reintroduced) to valuable information that will help throughout the program. Many bootcamps are starting to offer bootcamp prep courses as a way to offer pre work, and give a taste of what it would be like to enroll in the full time program.
-PROGRAMMING LANGUAGE - Programming languages (aka coding or computer languages) are compiled, formal, high level languages designed to communicate instructions in order to write computer programs.
-PROJECT BASED LEARNING - Project based learning is the consumption of knowledge through practice and application. Many coding bootcamps focus on project based learning by assigning specific project tasks to acclimate students to the real world experience of being a software developer.
-PYTHON - Python is a widely used, general purpose, high level programming language designed to emphasize code readability. Python syntax allows programmers to express concepts in fewer lines of code than would be possible in languages such as C++ or Java. Want to be a data scientist? Chances are, you need to know Python.
-R - R is a programming language and environment for statistical computing and graphics. If you’re interested in learning data science, you’ll get to use R for statistics problems.
-REACT - React (aka React.js or ReactJS) is an open source JavaScript library maintained by Facebook that provides a view for HTML data or user interfaces. React is a favorite technology among developers as it allows for increased development speed with trendy techniques.
-REACT NATIVE - React Native is the next generation of React that helps developers reuse code across the web and on mobile. Since native app creation means writing apps for a specific operating system, developers can now skip building the same app for iOS and Android from scratch; and instead reuse the code across each operating system.
-RELATIONAL DATABASE MANAGEMENT SYSTEM (RDBMS) - Relational database management system (RDBMS) is a program that allows developers to create, update, and administer relational databases. A relational database is a set of tables containing data in predefined categories.
-RESTful - Representational state transfer (REST) or RESTful web services are one way of exchanging data between computer systems on the Internet. REST is the underlying architectural principle of the web and can be thought of as the language of the internet.
-RUBY - Ruby is a dynamic, general purpose, open source programming language focused on simplicity and productivity. Ruby on Rails is a framework that uses Ruby code to produce web applications.
-RUBY ON RAILS - Ruby on rails is a full stack web application framework that uses the Ruby programming language. It allows developers to write less code by accomplishing more. 25% of coding bootcamps report Ruby on Rails as the primary programming framework taught.
-RUNTIME - Runtime is the period of time when a software program is on and running.
-SCRIPTING LANGUAGE - A scripting language (or script) is a programming language with a series of commands capable of being executed without using a compiler. Scripting languages include Perl, PHP, Python (server side) and JavaScript (client side). Expect to learn scripting languages at any full stack bootcamp.
+CODE REVIEW - A code review is the systematic examination of computer source code that is intended to find and fix mistakes originally overlooked. Students will learn and participate in code reviews at bootcamp to prepare for the types of code examinations that will commonly happen in job interviews or on the job
+CODING - Coding is the act of computer programming or software development in a given coding or programming language
+CODING BOOTCAMP - Coding bootcamps are intensive, immersive instructor led learning programs that teach beginners digital skills like Full Stack Web Development, Data Science, Digital Marketing, and UX/UI Design. Bootcamps vary in length from 8 to 28 weeks, with the average bootcamp being about 10 weeks long
+CODING CHALLENGE - Coding challenges are tests or projects given to future bootcampers by selective schools during the application process. Depending on the selectivity of the school, coding challenges may vary from solving a logic puzzle to build a full web application in a week. Expect to complete the coding challenge, then likely discuss how you approached it during your one on one interview
+COMMAND LINE - A command line interface or command language interpreter (CLI) is where a user can enter commands in the form of successive text in order to complete specific tasks
+COMPILER - A compiler is a set of computer programs that transforms one type of source code written in one language into a difference source code. For example, the compiler called gcc compiles a C program into an executable like Print (“Hello World”). Simply put, a complier is a source code translator
+CSS - If HTML is the structure of a house, then CSS is the paint and wallpaper. Cascading Style Sheets is a standard markup language that describes the formatting of markup language pages. Before CSS, websites were kept in HTML markup, making the process more complex. CSS is a frontend language that enables developers to separate content and visual elements for better page control and flexibility. CSS defines formatting for HTML, XHTML, XML, SVG, and XUL
+CYBERSECURITY - Cybersecurity, aka information technology security, focuses on the protection of computer and network data from unauthorized access (or hacking). This is a growing field as the need to keep digital information safe is a constant concern. There are even a few Cybersecurity bootcamps like Evolve Security Academy and SecureSet Academy
+DATABASE (DBMS) - A computer database management system refers to the storage and organization of data. Databases are used for easy retrieval of information
+DATA SCIENCE - According to NYC Data Science Academy, Data science is a multidisciplinary field that combines computer science and statistics. The objective of data science is to pull insightful and useful knowledge out of datasets which, at times, can be too large for traditional statistics to analyze. This can include anything from analyzing complex genomic structures, to interpreting handwriting, to optimizing a marketing strategy. Most data science bootcamps require an aptitude for math and statistics, and in some cases knowledge of a programming language, such as R or Python
+DATA STRUCTURES - A data structure is a specialized way of organizing and storing information on a computer so that it can be used efficiently. Data structures can implement particular abstract data types (ADT), as a means of specifying the contract of operations and their complexity
+DJANGO - A free, open source, web application framework written in Python which follows the model view controller (MVC) framework. Expect to learn Django at a coding bootcamp that teaches Python. It’s great for rapid development, along with clean and pragmatic design, and often used in Data Science roles
+DEPLOYMENT - Software is deployed when all of the activities that make a software system available for use are complete, tested, and ready for users. At a coding bootcamp, you should expect to be deploying to a platform like Heroku. Once code is deployed, it’s available to users
+EXPRESS.JS - Express.js is a Node.js web application backend server framework for building single page, multi page, and hybrid web apps. It’s the most common framework for Node.js as it simplifies the process and provides additional plug ins. Want to build a website? You’ll be using Express.js. It’s the E in MEAN Stack, and you should expect to learn it at any Full stack JavaScript Coding Bootcamp
+FLIPPED CLASSROOM - A type of blended learning teaching method that reverses the traditional educational arrangement by delivering instructional content, often online, outside of the classroom. Classroom time is then spent on projects and exercises. This is pretty typical in the coding bootcamp world, especially an online school
+FRAMEWORK - A framework is a reusable, hierarchical directory environment that indicates what kinds of programs can or should be built. Frameworks are similar to static and dynamic libraries called by applications to perform specific tasks. You’ll learn various JavaScript frameworks at a front end or full stack coding bootcamp including Angular.Js, and React
+FRONT END - Front end development refers to “client side” development, where the focus is on what users see. Front end developers will be engaged in analyzing code, design, and debugging applications along with ensuring a seamless user experience
+FULL STACK DEVELOPER - Full Stack Developers are software engineers versed in both frontend and back end development. Software development requires several types of engineers with various knowledge bases including, but not limited to, front end developers, web server administrators, back end engineers, and database engineers. A full stack developer can give insight into all layers of a project
+GIT - Git is an open source version control system used for it’s speed, data integrity, and support for distributed, non linear workflows. Think of it as a series of snapshots of your code. Every Git directory on every computer has a complete repository with history and full version tracking independent of network access or a central server
+GITHUB - Github is a micro web platform written in Python where developers store Git repositories in order to collaborate with other developers
+HTML - HyperText Markup Language (HTML) is the standard markup language used to create web pages. If you’re a beginner, this is usually the first programming language you will learn at a bootcamp. In the “house” analogy used in our definition for CSS, HTML is the structure of a house, while CSS is the paint and wallpaper
+HTTP REQUEST - HyperText Transfer Protocol (HTTP) is an application protocol for distributed, collaborative, hypermedia information systems. HTTP is the foundation of data communication for the World Wide Web. If your browser fetches any file from a web server, it’s using an HTTP request
+IDE - An Integrated Development Environment (IDE) is a comprehensive software suite that consolidates basic tools needed for developers. A typical IDE includes a source code editor, a compiler, and a debugger
+INCOME SHARE AGREEMENT - An income sharing agreement means students agree to pay a percentage of their salary to the school for a set period of time. Depending on the school, the percentage can range from 8% to 25%, and you may be sharing your income for 1 year to 4 years
+INHERITANCE - Inheritance in object oriented programming is the process of reusing code to allow independent extensions of the original software. New code classes receive (or “inherit”) the properties and methods of the existing code
+iOS SWIFT - iOS Swift is a multi paradigm, compiled programming language created by Apple Inc for iOS, macOS, watchOS, tvOS, and Linux. Swift adopts the best of C and Objective C, without the constraints of C compatibility. One day, mobile development bootcamps will be taught exclusively in Swift, but for now, expect to learn at least a bit of Swift with Objective C if you’re enrolled in a Mobile Development Bootcamp
+JAVA - Java is a backend, object oriented scripting language that allows you to create dynamic web pages enabling you to process and maintain data within the browser. Notable sites written in Java include Linkedin.com, AliExpress.com, and Ebay.com. And if you’re an Android mobile lover, Android mobile applications are written in Java
+JAVASCRIPT - JavaScript is a high level, dynamic front end programming language. JavaScript is one of the more popular languages taught at a full stack coding bootcamp. 33% of coding bootcamps report JavaScript as the primary programming framework taught
+JAVASCRIPT FRAMEWORK - A JavaScript Framework is a web application framework written in JavaScript. It gives structure to how a developer should write their code when using JavaScript
+JQUERY - jQuery is a cross platform JavaScript library designed to simplify the client side scripting of HTML and is the most popular JavaScript library in use today. Do you dream of being a Front End Developer? You’ll need to master jQuery, as it’s an easy way to add animation and interactivity to a website
+JSON (JAVASCRIPT OBJECT NOTATION) - JSON is a lightweight, readable format that transmits structured data between a server and web application. JSON can be used as an alternative to XML
+JUNIOR DEVELOPER - A junior web developer is an entry level software programmer (aka Junior Programmer or Junior Software Engineer). Most coding bootcamps’ goals are to prepare their students to become junior developers. Upon graduation, you should have the skills to be a junior developer, but ready to advance your career in a role that allows for more learning and growth
+LAMP STACK - LAMP is an archetypal model of web service solution stacks: Linux operating system, the Apache HTTP Server, the MySQL relational database management system (RDBMS) and the PHP programming language. LAMP stack is a popular open source web platform commonly used to run dynamic web sites and servers. You’ll usually see startups and large web companies using LAMP Stack like Tesla, SeatGeek, Lyft, and Birchbox
+LINUX - Linux is a unix like operating system assembled under the model of free and open source software development and distribution. It’s the L in LAMP stack
+LOCAL ENVIRONMENT - The local environment or development environment is where changes to software are developed before they go live. Once code has been tested, it is pushed out of the local environment and deployed to production
+MEAN STACK - MEAN Stack is a free and open source JavaScript software stack for building dynamic websites and web applications. MEAN is comprised of MongoDB, Express.js and Angular.js, which are all run on Node.js. All MEAN Stack devs are full stack devs. However, not all full stack devs are considered MEAN stack devs
+MONGODB - MongoDB is a cross platform document oriented database designed for scalability and agility. Classified as a NoSQL database, MongoDB uses JSON like documents with dynamic schemas instead of traditional table based relational database structures. MongoDB is the M in MEAN stack
+MVC - Model view controller (MVC) is a software design pattern for implementing user interfaces. It divides a given software application into three interconnected parts and defines not only the roles objects play in the application, it defines the way objects communicate with each other. Applications with a MVC design are usually more reusable, easily extensible, and have interfaces that are better defined
+MYSQL - MySQL is an open source relational database management system (RDBMS) that is very popular among small and big businesses. MySQL can support very large databases using the standard form SQL data language, while working on many operating systems with languages like PHP, Perl, C, C++, Java and more
+NODE.JS - Node.js (or Node) is an open source, cross platform runtime environment written in JavaScript for developing fast and scalable server side web applications. Node.js runs on OS X, Microsoft Windows, Linux and more. Node is the N in MEAN stack
+OBJECT ORIENTED PROGRAMING (OOP) - Object Oriented Programming (OOP) is a programming model based on the concepts of “objects,” which are data structures that contain data, instead of actions. Devs must define the datatype of a data structure and also the types of functions they want that data to perform. The first step in OPP, identifying all objects and preferred actions, is also known as data modeling
+OBJECT RELATED DATABASE MANAGEMENT SYSTEM (ORDBMS) - An object relational database management system (ORDBMS) is a database management system that is similar to a relational database, except that it has an object oriented database model. This system supports objects, classes, and inheritance in database schemas and query language; and is the middle ground between relational and objective databases
+OPEN SOURCE SOFTWARE DEVELOPMENT - Open source software is software that is available for public use. During open source software development, developers can work on products whose source code is under an open source license encouraging developers from around the world to study, change, and improve the design of the software. Popular open source software includes WordPress and Mozilla Firefox
+OS (OPERATING SYSTEM) - A computer’s OS is the most import piece of software, as it controls all functionality of a computer’s memory and processes
+PAIR PROGRAMMING - Pair programming is an agile development technique where two programmers share one computer and work together to code. The “driver” writes code, while the observer reviews each line of code for accuracy. The two programmers will switch roles often. Expect to do a good amount of pair programming at a bootcamp
+PHP - Hypertext Preprocessor (PHP) is a widely used server side scripting language designed to create dynamic and interactive HTML web pages. PHP adds functionality that HTML alone can not achieve. PHP is huge and runs on platforms like Facebook and Wikipedia
+POSTGRESQL - PostgresSQL is an open source object relational database management system (ORDBMS) with an emphasis on data integrity and on standards compliance. Often referred to as Postgres and has high scalability
+PREWORK - Prework is coding coursework assigned before the actual coding bootcamp starts. Prework is a way to accustom students to what they’ll learn at the bootcamp , and gives students an opportunity to be introduced (or reintroduced) to valuable information that will help throughout the program. Many bootcamps are starting to offer bootcamp prep courses as a way to offer pre work, and give a taste of what it would be like to enroll in the full time program
+PROGRAMMING LANGUAGE - Programming languages (aka coding or computer languages) are compiled, formal, high level languages designed to communicate instructions in order to write computer programs
+PROJECT BASED LEARNING - Project based learning is the consumption of knowledge through practice and application. Many coding bootcamps focus on project based learning by assigning specific project tasks to acclimate students to the real world experience of being a software developer
+PYTHON - Python is a widely used, general purpose, high level programming language designed to emphasize code readability. Python syntax allows programmers to express concepts in fewer lines of code than would be possible in languages such as C++ or Java. Want to be a data scientist? Chances are, you need to know Python
+R - R is a programming language and environment for statistical computing and graphics. If you’re interested in learning data science, you’ll get to use R for statistics problems
+REACT - React (aka React.js or ReactJS) is an open source JavaScript library maintained by Facebook that provides a view for HTML data or user interfaces. React is a favorite technology among developers as it allows for increased development speed with trendy techniques
+REACT NATIVE - React Native is the next generation of React that helps developers reuse code across the web and on mobile. Since native app creation means writing apps for a specific operating system, developers can now skip building the same app for iOS and Android from scratch; and instead reuse the code across each operating system
+RELATIONAL DATABASE MANAGEMENT SYSTEM (RDBMS) - Relational database management system (RDBMS) is a program that allows developers to create, update, and administer relational databases. A relational database is a set of tables containing data in predefined categories
+RESTful - Representational state transfer (REST) or RESTful web services are one way of exchanging data between computer systems on the Internet. REST is the underlying architectural principle of the web and can be thought of as the language of the internet
+RUBY - Ruby is a dynamic, general purpose, open source programming language focused on simplicity and productivity. Ruby on Rails is a framework that uses Ruby code to produce web applications
+RUBY ON RAILS - Ruby on rails is a full stack web application framework that uses the Ruby programming language. It allows developers to write less code by accomplishing more. 25% of coding bootcamps report Ruby on Rails as the primary programming framework taught
+RUNTIME - Runtime is the period of time when a software program is on and running
+SCRIPTING LANGUAGE - A scripting language (or script) is a programming language with a series of commands capable of being executed without using a compiler. Scripting languages include Perl, PHP, Python (server side) and JavaScript (client side). Expect to learn scripting languages at any full stack bootcamp
 SERVER - All websites are hosted on servers, or places that hold an enormous amount of data information. Heroku is a server that most bootcampers will use to build, run, and operate in the cloud
-SOURCE CODE - Source code, or code, is the fundamental part of a computer program. Source code is a text listing of commands written in a high level language that is converted into object code or machine code by a compiler. Want to see the Source Code of this webpage? Open it in Google Chrome, click on the View dropdown, navigate to Developer, and click View Source!
-SPRINT - A “sprint” in agile software development is a regular, repeatable work cycle. As a bootcamper you’ll participate in sprints to simulate a real world developer job.
-SQL - Structured Query Language (SQL) is a programming language specific for information housed in a relational database management system (RDBMS).
-STACK - A stack, or software stack or bundle, is a set of software components that a company or developer chooses to use. Stacks can be split into two areas: front end stacks and back end stacks. To see the stacks that various tech companies use, check out Stackshare.io.
-SYNCHRONOUS LEARNING - Synchronous learning refers to teacher student interactions in online, same time learning environments. This type of learning is commonly seen in mentor driven or instructor driven classrooms like Thinkful or Hack Reactor Remote.
-SYNTAX - Syntax refers to the grammar, structure, or order of elements in a programming language. Each programming language will have a unique syntax.
-TEACHING LANGUAGE - Teaching language refers to the programming language taught at a given bootcamp . Be sure to choose a bootcamp that teaches the programming languages required for the specific roles you would want to apply for!
-TERMINAL - Terminal is the application on a Mac operating system that allows for a command line interface, where you can enter commands directly.
-UNICORN - A unicorn software developer is someone who knows web development and design skills. Employers love a good unicorn developer so it’s always a good idea for a web designer to learn coding skills (and vice versa)! Alternate Meaning: A unicorn is also a startup valued at $1 billion dollars.
-USABILITY TESTING - Usability testing is a user centered interaction to evaluate how products work with users. Product usability focuses on ease of use, visual consistency, and a clear process for evolution.
-USER EXPERIENCE DESIGN (UX) - User experience design (or UX design) focuses on improving the usability and ease of web application products from a customer satisfaction/loyalty standpoint. A UX designer makes an app easy to use. If you’re looking to be a UX designer, you’ll be learning frontend languages, as well as applications like Sketch and Invision.
-USER INTERFACE DESIGN (UI) - User interface design (or UI design) focuses on the series of screens, images, and visual elements such as buttons or icons one uses to interact with a device. A UI designer makes an app visually appealing. As a UI designer, you’ll use frontend languages and applications like Sketch, Photoshop, and Illustrator.
-VERSION CONTROL - Version control is the management and recording of changes to documents, computer programs, large web sites, and other collections of information. When developers are building out new software, version control keeps the frequent updates and revisions sorted in a central repository. GitHub is a code hosting platform for version control.
-XCODE - Xcode is an integrated development environment (IDE) that contains a suite of software development tools by Apple for macOS, iOS, WatchOS, and tvOS.
-XML - XML or Extensible Markup Language defines a set of rules for encoding documents in human and machine readable formats. XML is unlike HTML in that it allows for documents to display in a variety of additional formats outside of just a web browser.
-WHITEBOARDING  - In agile software development, development teams use whiteboarding as a low tech, manual way to track work progress. Charts and sketches are drawn by hand in order to work through a specific problem or task. Expect to do a lot of whiteboarding at bootcamp as it’s a great learning and development tool used in the coding industry. Whiteboarding is also used during developer  interviews for coding challenges!
+SOURCE CODE - Source code, or code, is the fundamental part of a computer program. Source code is a text listing of commands written in a high level language that is converted into object code or machine code by a compiler. Want to see the Source Code of this webpage? Open it in Google Chrome, click on the View dropdown, navigate to Developer, and click View Source
+SPRINT - A “sprint” in agile software development is a regular, repeatable work cycle. As a bootcamper you’ll participate in sprints to simulate a real world developer job
+SQL - Structured Query Language (SQL) is a programming language specific for information housed in a relational database management system (RDBMS)
+STACK - A stack, or software stack or bundle, is a set of software components that a company or developer chooses to use. Stacks can be split into two areas: front end stacks and back end stacks. To see the stacks that various tech companies use, check out Stackshare.io
+SYNCHRONOUS LEARNING - Synchronous learning refers to teacher student interactions in online, same time learning environments. This type of learning is commonly seen in mentor driven or instructor driven classrooms like Thinkful or Hack Reactor Remote
+SYNTAX - Syntax refers to the grammar, structure, or order of elements in a programming language. Each programming language will have a unique syntax
+TEACHING LANGUAGE - Teaching language refers to the programming language taught at a given bootcamp . Be sure to choose a bootcamp that teaches the programming languages required for the specific roles you would want to apply for
+TERMINAL - Terminal is the application on a Mac operating system that allows for a command line interface, where you can enter commands directly
+UNICORN - A unicorn software developer is someone who knows web development and design skills. Employers love a good unicorn developer so it’s always a good idea for a web designer to learn coding skills (and vice versa)! Alternate Meaning: A unicorn is also a startup valued at $1 billion dollars
+USABILITY TESTING - Usability testing is a user centered interaction to evaluate how products work with users. Product usability focuses on ease of use, visual consistency, and a clear process for evolution
+USER EXPERIENCE DESIGN (UX) - User experience design (or UX design) focuses on improving the usability and ease of web application products from a customer satisfaction/loyalty standpoint. A UX designer makes an app easy to use. If you’re looking to be a UX designer, you’ll be learning frontend languages, as well as applications like Sketch and Invision
+USER INTERFACE DESIGN (UI) - User interface design (or UI design) focuses on the series of screens, images, and visual elements such as buttons or icons one uses to interact with a device. A UI designer makes an app visually appealing. As a UI designer, you’ll use frontend languages and applications like Sketch, Photoshop, and Illustrator
+VERSION CONTROL - Version control is the management and recording of changes to documents, computer programs, large web sites, and other collections of information. When developers are building out new software, version control keeps the frequent updates and revisions sorted in a central repository. GitHub is a code hosting platform for version control
+XCODE - Xcode is an integrated development environment (IDE) that contains a suite of software development tools by Apple for macOS, iOS, WatchOS, and tvOS
+XML - XML or Extensible Markup Language defines a set of rules for encoding documents in human and machine readable formats. XML is unlike HTML in that it allows for documents to display in a variety of additional formats outside of just a web browser
+WHITEBOARDING - In agile software development, development teams use whiteboarding as a low tech, manual way to track work progress. Charts and sketches are drawn by hand in order to work through a specific problem or task. Expect to do a lot of whiteboarding at bootcamp as it’s a great learning and development tool used in the coding industry. Whiteboarding is also used during developer interviews for coding challenges
