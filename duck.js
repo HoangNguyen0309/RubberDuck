@@ -6,3 +6,16 @@ if (e.keyCode === 13) {
 }
 })
 
+
+//assume that var link = website link
+//assume that var word = website header
+//assume that definition = website definition
+//function newElement() {
+//    var li = document.createElement("li");
+//    var t = ;
+//    li.appendChild(t);
+//}
+
+function myFunction() {
+    document.getElementById("press").innerHTML = "insert your var here";
+}
