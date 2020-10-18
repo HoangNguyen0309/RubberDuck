@@ -63,6 +63,8 @@ def getResults(tags):
 
 
     """
+
+
     return """<!DOCTYPE html>
 <html>
 
@@ -196,6 +198,7 @@ def hello_world():
     return """<!DOCTYPE html>
 <html lang="en">
 <head>
+
 	<title>RubberDuck</title>
 	<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
     <!--<link rel="stylesheet" href="rubber.css" id="change">-->
@@ -221,9 +224,61 @@ def OUT2():
     return """<!DOCTYPE html>
 <html lang="en">
 <head>
+ <style>
+		model-viewer {
+			float: initial;
+    		display: block;
+    		margin-left: auto;
+    		margin-right: auto;
+    		width: 50%;
+    		margin-top: 200px;
+    		width: 240px;
+    		height: 240px;
+		}
+		h1 {
+			font-family: Montserrat;
+    		font-size: 64px;
+    		text-align: center;
+    		color: white;
+    		margin-top: 0px;
+			margin-bottom: 24px;
+    		font-weight: bold;
+		}
+		input {
+			font-family: Montserrat;
+    		border: none;
+    		border-radius: 15px;
+    		display: block;
+    		width: 30%;
+    		font-size: 16px;
+    		float: center;
+    		padding: 12px 20px;
+    		margin: 0 auto;
+    		margin-top: 2px; 
+    		margin-bottom: 0px;
+			
+    		background-image: url('searchIcon.png');
+    		background-position: 97%;
+    		background-size: 12px 12px;
+    		background-repeat: no-repeat;
+		}
+		input:focus {
+    		background-color: lightblue;
+    		border: none;
+    		outline: none;
+    		border-radius: 15px;
+		}
+		@font-face {
+    		font-family: Mont;
+    		src: url(Montserrat-Bold.ttf);
+			font-weight: bold;
+		}
+
+	</style>
 	<title>RubberDuck</title>
 	<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
     <!--<link rel="stylesheet" href="rubber.css" id="change">-->
+   
 </head>
 <body style="background-color: #073763ff;">
 	<!--<script src="duck.js"></script>-->
