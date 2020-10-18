@@ -1,1 +1,48 @@
-
+QU*CK!!!
+Hello World!
+== to compare values, = to set value
+It’s okay to take a break
+Write some pseudocode
+.length() is not a valid index for String
+Make sure to import your packages, not just install them
+Using = on reference types only compares addresses
+You cannot declare methods in a main method
+Comment your code, you will not remember what it does
+You do not look good in a fedora
+Linux is not a personality
+You look great today
+This is not DuckDuckGo
+An indent is 4 spaces
+Don’t forget to save
+Don’t push to the main branch
+Pull often
+Did you contribute to GutHub today?
+Make variable names descriptive
+My name isn’t Jason, but I can help with JSON
+A String is not primitive
+Don’t forget to remove print statements from debugging
+Did you know ducks eat bugs?
+Make sure your crushes are real
+Hey bum bum bum got any grapes?
+It’s great practice to code without and IDE
+Should your method be static?
+I cannot see at night, but dark mode is great for you
+Did you forget to break out of a case in a switch?
+Putting @Override is nice to have, but not required
+The stack trace is your friend
+Every bracket needs a friend
+Maybe you should go to bed
+Try thinking in reverse
+You might be looking in the wrong place
+Please don’t leave, if you do I go to the void
+A for-each loop is optimal for arrays
+Do-while guarantees the block to execute at least once
+My bill and your face are gonna have a merge conflict if you aren’t nice
+The code did what you told it to do, I promise
+I think I’m gonna be a python for Halloween
+Someone loves you
+Be consistent with variable naming
+Use good coding style, Vocareum and future you will be grateful
+The duck knows all, but won’t tell you
+Make sure you use the right syntax with me, it’s easier than python!
+So there’s this cat, with a tentacle, funniest thing I’ve ever seen in my life
