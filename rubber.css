@@ -16,11 +16,11 @@
 }
 .name {
     font-family: Montserrat;
-    font-size: 50px;
+    font-size: 64px;
     text-align: center;
-    color: aliceblue;
+    color: white;
     margin-top: 0px;
-	margin-bottom: 18px;
+	margin-bottom: 24px;
 	font-weight: bold;
 }
 .input {
