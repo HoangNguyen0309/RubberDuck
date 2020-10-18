@@ -1,0 +1,50 @@
+#bodycolor {
+    background-color: #073763ff;
+}
+.space {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 200px;
+    width: 200px;
+    height: 200px;
+}
+.name {
+    font-family: Montserrat;
+    font-size: 50px;
+    text-align: center;
+    color: aliceblue;
+}
+.input {
+    font-family: Montserrat;
+    border: none;
+    border-radius: 15px;
+    display: block;
+    width: 30%;
+    font-size: 16px;
+    float: center;
+    padding: 12px 20px;
+    margin: 0 auto;
+    margin-top: 2px; 
+    
+    background-image: url('searchIcon.png');
+    background-position: right;
+    background-size: 12px 12px;
+    background-repeat: no-repeat;
+}
+.input:focus {
+    background-color: lightblue;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(Montserrat-Regular.ttf);
+}
