@@ -13,19 +13,18 @@
     display:inline-block;margin-right:10px;
 }
 .input {
-    margin-top: 5px;
+    margin-top: 2px;
 
     font-family: Montserrat;
     border: none;
     border-radius: 15px;
     display: block;
-    width: 75%;
+    width: 76%;
     font-size: 16px;
     padding: 12px 20px;
-    margin: 0 auto;
     
     background-image: url('searchIcon.png');
-    background-position: right;
+    background-position: 99%;
     background-size: 12px 12px;
     background-repeat: no-repeat;
 

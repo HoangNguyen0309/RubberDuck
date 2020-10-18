@@ -19,6 +19,7 @@
     font-size: 50px;
     text-align: center;
     color: aliceblue;
+    margin-bottom: 0px;
 }
 .input {
     font-family: Montserrat;
@@ -31,9 +32,10 @@
     padding: 12px 20px;
     margin: 0 auto;
     margin-top: 2px; 
+    margin-bottom: 0px;
     
     background-image: url('searchIcon.png');
-    background-position: right;
+    background-position: 97%;
     background-size: 12px 12px;
     background-repeat: no-repeat;
 }
