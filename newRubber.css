@@ -1,0 +1,45 @@
+.center {
+    margin-top: 5px;
+    float: left;
+    width: 40px;
+    height: 40px;
+}
+.name {
+    margin-top: 5px;
+    font-family: Montserrat;
+    font-size: 40px;
+    color: aliceblue;
+
+    display:inline-block;margin-right:10px;
+}
+.input {
+    margin-top: 5px;
+
+    font-family: Montserrat;
+    border: none;
+    border-radius: 15px;
+    display: block;
+    width: 75%;
+    font-size: 16px;
+    padding: 12px 20px;
+    margin: 0 auto;
+    
+    background-image: url('searchIcon.png');
+    background-position: right;
+    background-size: 12px 12px;
+    background-repeat: no-repeat;
+
+    display:inline-block;
+}
+
+.input:focus {
+    background-color: lightblue;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(Montserrat-Regular.ttf);
+}
